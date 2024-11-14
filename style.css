@@ -1,0 +1,413 @@
+body{
+    background-color: #211A29;
+    margin: 0px;
+}
+main{
+    width: 100%;
+    height: 650px;
+    background-image: url(./Combined\ Shape\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+main .text{
+    display: flex;
+    justify-content: center;
+}
+main .mainText{
+    margin: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 7.5px;
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 120px;
+}
+main .soon{
+    margin: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 7.5px;
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+main .time{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 50px;
+}
+.time .day{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #343650 ;
+    border-radius: 10px;
+    box-shadow: 0px 10px #191A23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time .day .line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 30%;
+    position: absolute;
+    z-index: 99;
+}
+.time .day .wre1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#211A29 50%,#191A23 50%);
+    z-index: 99;
+    left: -6px;
+}
+.time .day .wre2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#191A23 50%,#211A29 50%);
+    z-index: 99;
+    right: -6px;
+}
+.time .hour{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #343650 ;
+    border-radius: 10px;
+    box-shadow: 0px 10px #191A23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time .hour .line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 30%;
+    position: absolute;
+    z-index: 99;
+}
+.time .hour .wre1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#211A29 50%,#191A23 50%);
+    z-index: 99;
+    left: -6px;
+}
+.time .hour .wre2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#191A23 50%,#211A29 50%);
+    z-index: 99;
+    right: -6px;
+}
+.time .minute{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #343650 ;
+    border-radius: 10px;
+    box-shadow: 0px 10px #191A23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time .minute .line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 30%;
+    position: absolute;
+    z-index: 99;
+}
+.time .minute .wre1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#211A29 50%,#191A23 50%);
+    z-index: 99;
+    left: -6px;
+}
+.time .minute .wre2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#191A23 50%,#211A29 50%);
+    z-index: 99;
+    right: -6px;
+}
+.time .second{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #343650 ;
+    border-radius: 10px;
+    box-shadow: 0px 10px #191A23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time .second .line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 30%;
+    position: absolute;
+    z-index: 99;
+}
+.time .second .wre1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#211A29 50%,#191A23 50%);
+    z-index: 99;
+    left: -6px;
+}
+.time .second .wre2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#191A23 50%,#211A29 50%);
+    z-index: 99;
+    right: -6px;
+}
+.day .bottomText{
+    margin: -10px;
+    color: #8385A9;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.hour .bottomText{
+    margin: -10px;
+    color: #8385A9;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.minute .bottomText{
+    margin: -10px;
+    color: #8385A9;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.second .bottomText{
+    margin: -10px;
+    color: #8385A9;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+#day{
+    color: #FB5E84;
+    font-size: 90px;
+}
+#hour{
+    color: #FB5E84;
+    font-size: 90px;
+}
+#minute{
+    color: #FB5E84;
+    font-size: 90px;
+}
+#second{
+    color: #FB5E84;
+    font-size: 90px;
+}
+footer{
+    width: 100%;
+    height: 253px;
+    margin-top: 50px;
+    background-image: url(./Group\ 5.png);
+    background-size: cover;
+    background-position: center;
+}
+footer div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div i{
+    padding: 20px;
+    font-size: 30px;
+    color: #8385A9;
+}
+@media screen and (max-width: 820px){
+    .time .day{
+        width: 100px;
+        height: 100px;
+    }
+    .time .hour{
+        width: 100px;
+        height: 100px;
+    }
+    .time .minute{
+        width: 100px;
+        height: 100px;
+    }
+    .time .second{
+        width: 100px;
+        height: 100px;
+    }
+    #day{
+        font-size: 60px;
+    }
+    #hour{
+        font-size: 60px;
+    }
+    #minute{
+        font-size: 60px;
+    }
+    #second{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 620px){
+    .time .day{
+        width: 70px;
+        height: 70px;
+    }
+    .time .hour{
+        width: 70px;
+        height: 70px;
+    }
+    .time .minute{
+        width: 70px;
+        height: 70px;
+    }
+    .time .second{
+        width: 70px;
+        height: 70px;
+    }
+    #day{
+        font-size: 36px;
+    }
+    #hour{
+        font-size: 36px;
+    }
+    #minute{
+        font-size: 36px;
+    }
+    #second{
+        font-size: 36px;
+    }
+    .day .bottomText{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .hour .bottomText{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .minute .bottomText{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .second .bottomText{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+}
+@media screen and (max-width: 500px){
+    main .time{
+        gap: 30px;
+    }
+    main .mainText{
+        font-size: 18px;
+    }
+    main .soon{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 410px){
+    main .text{
+        flex-direction: column;
+
+    }
+    main .soon{
+        margin: 0px;
+        margin-top: 10px;
+        margin: auto;
+        width: 70px;
+    }
+    main .mainText{
+        padding-top: 120px;
+        width: 260px;
+        margin: auto;
+    }
+    .time .day{
+        width: 60px;
+        height: 60px;
+    }
+    .time .hour{
+        width: 60px;
+        height: 60px;
+    }
+    .time .minute{
+        width: 60px;
+        height: 60px;
+    }
+    .time .second{
+        width: 60px;
+        height: 60px;
+    }
+    .day .bottomText{
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+    .hour .bottomText{
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+    .minute .bottomText{
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+    .second .bottomText{
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+    #day{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #hour{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #minute{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #second{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    main .time{
+        gap: 20px;
+    }
+
+}
